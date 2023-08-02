@@ -1,0 +1,32 @@
+/*
+*AGK Like system css
+*/
+.AGK-btn{
+    display:inline-block;
+    width:46%;
+    padding:20px;
+    font-size:20px;
+    margin:0 2%;
+    border:1px solid white;
+    background: white;
+    text-align:center;
+    text-transform:uppercase;
+    color:grey;
+    transition:0.5s all;
+
+
+}
+
+.AGK-btn:hover{
+    text-decoration:none;
+    color: inherit;
+
+}
+.AGK-like-btn:hover{
+    background: green;
+    color:white;
+}
+.AGK-dislike-btn:hover{
+    background: red;
+    color:white;
+}
