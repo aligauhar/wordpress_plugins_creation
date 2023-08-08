@@ -3,7 +3,7 @@ function wpac_like_btn_ajax(postID, usrid) {
     var usr_ID = usrid;
 
     jQuery.ajax({
-        url: wpac_ajax_url.ajax_url, // Corrected variable name
+        url: wpac_ajax_url.ajax_url,
         type: 'post',
         data: {
             action: 'wpac_like_btn_ajax_action',
